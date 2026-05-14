@@ -33,7 +33,6 @@ L'approche suit une progression volontairement pédagogique : partir d'un modèl
 | Figures exportées | `outputs/images/` |
 | Poids des modèles entraînés | `outputs/models/` |
 | Dépendances projet | `pyproject.toml`, `requirements.txt` |
-| Point d'entrée Python minimal | `main.py` |
 
 Les figures générées par les notebooks incluent notamment la distribution des classes, les analyses de longueur de texte, les mots fréquents, les indicateurs de spam, les courbes d'entraînement, les matrices de confusion, les courbes ROC et, pour DistilBERT, la courbe précision-rappel et l'histogramme de confiance.
 
@@ -60,7 +59,6 @@ projet-spam-detector-bloc4/
 │   ├── images/
 │   └── models/
 ├── .env.dist
-├── main.py
 ├── pyproject.toml
 ├── requirements.txt
 ├── uv.lock
