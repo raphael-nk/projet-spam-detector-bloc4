@@ -1,6 +1,6 @@
-# Remove Models from github - it's too large
-outputs/models/**/*.pth 
-outputs/models/**/*.safetensors
+# Model artifacts (keep directory placeholder only)
+outputs/models/**
+!outputs/models/.gitkeep
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
